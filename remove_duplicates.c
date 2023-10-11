@@ -2,6 +2,8 @@
 #include <stdbool.h>
 #include <string.h>
 
+// remove all adjacent duplicates in a string
+// https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
 
 void removeadj(char* s , char* frstchar){
     char* temp = frstchar;
