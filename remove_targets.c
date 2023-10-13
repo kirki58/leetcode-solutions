@@ -2,8 +2,10 @@
 #include <limits.h>
 
 
-# remove targets from a given array.
-# https://leetcode.com/problems/destroy-sequential-targets/
+/* 
+    remove targets from a given array.
+    https://leetcode.com/problems/destroy-sequential-targets/
+*/
 
 int isInteger(double val){
     int truncated = (int) val;
